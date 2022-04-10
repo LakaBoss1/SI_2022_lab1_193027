@@ -1,0 +1,101 @@
+cd Desktop
+git clone https://github.com/LakaBoss1/SI_2022_lab1_193027.git
+cd SI_2022_lab1_193027
+notepad shopping_list.txt
+git add .
+git commit shopping_list.txt -m "Add 5 items to the shopping list"
+notepad shopping_list.txt
+git add .
+git commit shopping_list.txt -m "Add quantities to the items"
+git branch branch1
+git branch branch2
+git log
+commit fef8e6b3fbdfba5a1931a4ddc2e66c80c0df1992 (HEAD -> main, branch2, branch1)
+Author: Lazar Andonov <andonovlazar1@gmail.com>
+Date:   Sun Apr 10 17:01:15 2022 +0200
+
+    Add quantites to the items
+
+commit 750181c845a8e51947f71dcd3895ecd52d4bb35f
+Author: Lazar Andonov <andonovlazar1@gmail.com>
+Date:   Sun Apr 10 17:00:25 2022 +0200
+
+    Add items to the shopping list
+
+commit b1a2a4f222748216a4e94f6179eecff585f05653 (origin/main, origin/HEAD)
+Author: LakaBoss1 <82390490+LakaBoss1@users.noreply.github.com>
+Date:   Sun Apr 10 16:54:24 2022 +0200
+
+    Update README.md
+
+commit 28d584199dd509879f33369abb6b23ee80c2fc52
+Author: LakaBoss1 <82390490+LakaBoss1@users.noreply.github.com>
+Date:   Sun Apr 10 16:54:04 2022 +0200
+
+    Initial commit
+git checkout branch1
+notepad shopping_list.txt
+git add .
+git commit shopping_list.txt -m "Change quantity of item #5"
+git checkout main
+notepad shopping_list.txt
+git add .
+git commit shopping_list.txt -m "Change quantity of item #2"
+notepad shopping_list.txt
+git add .
+git commit shopping_list.txt -m "Modify item #4"
+commit 197c938bca22f5377076b43f6de13841287718e8 (HEAD -> branch2)
+Author: Lazar Andonov <andonovlazar1@gmail.com>
+Date:   Sun Apr 10 17:10:10 2022 +0200
+
+    Modify item #4
+
+commit fef8e6b3fbdfba5a1931a4ddc2e66c80c0df1992 (origin/branch2)
+Author: Lazar Andonov <andonovlazar1@gmail.com>
+Date:   Sun Apr 10 17:01:15 2022 +0200
+
+    Add quantites to the items
+
+commit 750181c845a8e51947f71dcd3895ecd52d4bb35f
+Author: Lazar Andonov <andonovlazar1@gmail.com>
+Date:   Sun Apr 10 17:00:25 2022 +0200
+
+    Add items to the shopping list
+
+commit b1a2a4f222748216a4e94f6179eecff585f05653
+Author: LakaBoss1 <82390490+LakaBoss1@users.noreply.github.com>
+Date:   Sun Apr 10 16:54:24 2022 +0200
+
+    Update README.md
+
+notepad shopping_list.txt
+git add .
+git commit --amend shopping_list.txt -m "Modify item #4 and add item #6"
+git log
+commit 197c938bca22f5377076b43f6de13841287718e8 (HEAD -> branch2)
+Author: Lazar Andonov <andonovlazar1@gmail.com>
+Date:   Sun Apr 10 17:10:10 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit fef8e6b3fbdfba5a1931a4ddc2e66c80c0df1992 (origin/branch2)
+Author: Lazar Andonov <andonovlazar1@gmail.com>
+Date:   Sun Apr 10 17:01:15 2022 +0200
+
+    Add quantites to the items
+
+commit 750181c845a8e51947f71dcd3895ecd52d4bb35f
+Author: Lazar Andonov <andonovlazar1@gmail.com>
+Date:   Sun Apr 10 17:00:25 2022 +0200
+
+    Add items to the shopping list
+
+commit b1a2a4f222748216a4e94f6179eecff585f05653
+Author: LakaBoss1 <82390490+LakaBoss1@users.noreply.github.com>
+Date:   Sun Apr 10 16:54:24 2022 +0200
+
+    Update README.md
+
+
+
+
