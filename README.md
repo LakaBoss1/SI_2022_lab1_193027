@@ -1,1 +1,1 @@
-# SI_2022_lab1_193027
+Lazar Andonov 193027
