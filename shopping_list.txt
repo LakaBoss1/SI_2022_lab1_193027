@@ -1,5 +1,8 @@
 Jajca x10
 Mleko x22
 Leb x3
+<<<<<<< HEAD
 Voda x5
 Sok x66
+=======
+>>>>>>> branch2
